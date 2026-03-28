@@ -17,6 +17,13 @@ const Certificates = () => {
       platform: "Great Learning Academy",
       status: "Earned",
       date: "2023"
+    },
+    {
+      title: "Completed Web Development Course",
+      issuer: "Udemy",
+      platform: "Udemy",
+      status: "Earned",
+      date: "2026"
     }
   ];
 
@@ -24,11 +31,11 @@ const Certificates = () => {
     <section id="certificates" className="py-32 relative bg-slate-50 border-b border-slate-100">
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
-           initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
-           whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-           viewport={{ once: true, margin: "-50px" }}
-           transition={{ duration: 0.8, type: "spring", stiffness: 100, damping: 20 }}
-           className="text-center mb-20"
+          initial={{ opacity: 0, y: 30, filter: "blur(10px)" }}
+          whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+          viewport={{ once: true, margin: "-50px" }}
+          transition={{ duration: 0.8, type: "spring", stiffness: 100, damping: 20 }}
+          className="text-center mb-20"
         >
           <h2 className="text-neon-purple font-outfit font-bold uppercase tracking-[0.4em] mb-4 text-sm">Credentials</h2>
           <h3 className="text-5xl font-outfit font-extrabold text-slate-900 tracking-tighter text-center">Professional Certifications</h3>
